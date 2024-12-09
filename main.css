@@ -1,0 +1,11 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "navbar navbar"
+    "sidear main"
+    "sidebar footer";
+}
+nav{
+    grid-area: navbar;
+}
